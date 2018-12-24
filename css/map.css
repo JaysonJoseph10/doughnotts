@@ -1,0 +1,82 @@
+#map {
+  height: 642px;
+  background-color: #2a2a2a;
+  position: relative;
+  overflow: hidden;
+}
+#map .locations {
+  width: 502px;
+  height: 75%;
+  padding: 25px;
+  background: url('../img/blackboard-bg.jpg'), #2A2A2A;
+  position: absolute;
+  top: 12.5%;
+  right: 6%;
+  z-index: 1;
+}
+#map .locations .stores-stockists {
+   display: grid;
+   grid-gap: 17px;
+   grid-template-columns: 1fr 1fr;
+}
+#map .locations .stores-stockists a {
+  display: inline-block;
+  padding: 15px 60px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  border: 3px solid white;
+  font-size: 1.2rem;
+  max-width: 215px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.03rem;
+}
+#map .locations .stores-stockists a:first-of-type {
+
+}
+#map .locations .stores-stockists a:last-of-type {
+  border: 3px solid #9d845e;
+  /* color: #AD9166; */
+  color: #9d845e;
+  transition: .1s;
+}
+#map .locations .stores-stockists a:last-of-type:hover {
+  border: 3px solid #a38a61;
+  color: #a38a61;
+}
+#map .locations .location {
+  line-height: 1.6;
+}
+#map .locations .location h4 {
+  display: inline-block;
+  color: #ad9166;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.41rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.04rem;
+}
+#map .locations .location h4:first-of-type {
+  padding: 30px 0 0;
+}
+#map .locations .location a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #525252;
+  font-family: 'Anton', sans-serif;
+  padding: 1px 4px;
+  background-color: #121212;
+  margin-left: 5px;
+  transition: .2s;
+}
+#map .locations .location a:hover {
+  color: #5e5e5e;
+}
+#map .locations .location p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 0.94rem;
+}

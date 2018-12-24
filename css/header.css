@@ -1,0 +1,594 @@
+header {
+  background: url('../img/chalk-doodles-left.png') no-repeat, url('../img/chalk-doodles-right.png') no-repeat, url('../img/blackboard-bg.jpg'), #2A2A2A;
+  background-size: contain, contain, cover;
+  background-position: left, right, top center;
+  height: 1122px;
+  overflow: hidden;
+}
+header div.mobile-socials-and-links-container {
+  display: none;
+  height: 40px;
+}
+header div.mobile-socials-and-links-container .deliveroo-icon-mobile {
+  background-color: #00cebc;
+  /* flex: 1%; */
+  display: flex;
+  align-items: center;
+  width: 17%;
+}
+header div.mobile-socials-and-links-container .deliveroo-icon-mobile a {
+  margin: 0 auto;
+}
+header div.mobile-socials-and-links-container .deliveroo-icon-mobile a img {
+  width: 20px;
+}
+header div.mobile-socials-and-links-container .come-find-us {
+  /* flex: 2; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50.5%;
+}
+header div.mobile-socials-and-links-container .come-find-us a {
+  background-color: #2a2a2a;
+  text-decoration: none;
+  color: white;
+  font-family: 'Dreamwalker', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header div.mobile-socials-and-links-container .come-find-us a span {
+  align-self: center;
+  position: relative;
+  /* top: 1px; */
+  /* left: 21px; */
+  font-size: 1.03rem;
+}
+header div.mobile-socials-and-links-container .come-find-us a i {
+  /* font-size: 1.92rem; */
+  font-size: 20px;
+  margin-right: 10px;
+}
+header div.mobile-socials-and-links-container .menu-btn-container {
+  /* flex: 2.55; */
+  /* flex: 1.75; */
+  color: white;
+  width: 36%;
+}
+header div.mobile-socials-and-links-container .menu-btn-container a {
+  background-color: #AD9166;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dreamwalker', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+header div.mobile-socials-and-links-container .menu-btn-container a i {
+  font-size: 20px;
+  margin: 0 8px 0 0;
+}
+header div.mobile-socials-and-links-container .menu-btn-container a span {
+  position: relative;
+  top: 1px;
+}
+header div.socials-and-links-container {
+  padding: 18px 20px 35px;
+}
+header div.socials-and-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+header div.socials-and-links i {
+  font-size: 25px;
+}
+header div.socials-and-links a {
+  text-decoration: none;
+  color: #AD9166 /*rgb(173, 145, 102)*/;
+  font-family: 'Anton', sans-serif;
+}
+header div.socials-and-links .socials {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 95px;
+}
+header div.socials-and-links .instagram-hashtag a {
+  color: #7B684C;
+  letter-spacing: 0.03rem;
+  font-size: 0.96rem;
+  position: relative;
+  left: 66px;
+  bottom: 1px;
+  transition: 0.4s;
+}
+header div.socials-and-links .instagram-hashtag a:hover {
+  color: #83745C;
+}
+header div.socials-and-links .order {
+  display: flex;
+  justify-content: space-around;
+  width: 225px;
+  position: relative;
+  top: 2px;
+}
+header div.socials-and-links .order a:first-of-type {
+  border: 2px solid #AD9166;
+  padding: 12px;
+  letter-spacing: 0.03rem;
+  font-size: 15px;
+  transition: .4s;
+  max-height: 44px;
+  margin: 0 7px 0 0;
+}
+header div.socials-and-links .order a:first-of-type:hover {
+  color: #C9B79B;
+  border-color: #C9B79B;
+}
+header div.socials-and-links .order a:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 11px;
+  background-color: #00cebc;
+  max-height: 44px;
+  color: white;
+  transition: .3s;
+}
+header div.socials-and-links .order a:last-of-type:hover {
+  background-color: #00BFAE;
+}
+header div.socials-and-links .order a img {
+  width: 18px;
+  margin: 0 5px 0 0;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header div.link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px;
+  position: relative;
+  top: -2.80rem;
+  left: 0.1rem;
+  z-index: 3
+}
+header div.link-container a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.29em;
+  padding: 15px;
+  letter-spacing: 0.01rem;
+  transition: 0.3s;
+}
+header div.link-container a:hover {
+  color: #AD9166;
+}
+header div.link-container a:first-of-type {
+  /* border-bottom: 3px solid #AD9166; */
+  position: relative;
+}
+header div.link-container a:first-of-type:hover {
+
+}
+header div.link-container a:first-of-type::after {
+  content: '';
+  width: 30px;
+  border-bottom: 3px solid rgba(173,145,102,0.8);
+  z-index: 1;
+  display: block;
+  margin: 12px 0 0 0.45rem;
+  position: absolute;
+}
+header div.link-container a img {
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+  top: 2rem;
+  margin: 0 3rem;
+  width: 435px;
+}
+header div.link-container a img:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+header div.doughnut {
+  text-align: center;
+  position: relative;
+  bottom: 148px;
+}
+header h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 2.95rem;
+  font-family: 'Anton', sans-serif;
+  position: relative;
+  top: /*-11rem*/ -15%;
+  letter-spacing: 0.06rem;
+}
+header div.throughout-midlands {
+  position: relative;
+  top: -13%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  color: #AD9166;
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+}
+header div.throughout-midlands a {
+  color: #AD9166;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transition: color .3s;
+}
+header div.throughout-midlands a:hover {
+  color: #C9B79B;
+}
+header div.throughout-midlands a::after {
+  content: '';
+  border-bottom: 1px solid rgb(173,145,102);
+  width: 200%;
+  display: block;
+  margin: 5px auto;
+  position: absolute;
+  transform: scale(0.5) translateX(-50%);
+}
+header div.view-doughnuts {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: 'Anton', sans-serif;
+  position: relative;
+  top: /*-11rem*/ -7%;
+  letter-spacing: 0.06rem;
+}
+header div.view-doughnuts a {
+  text-decoration: none;
+  color: rgb(173,145,102);
+  padding: 15px 45px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 3px solid rgb(173,145,102);
+}
+header div.view-doughnuts a:hover {
+  color: #C9B79B;
+  border-color: #C9B79B;
+}
+header div.supersized-and-mini {
+  position: relative;
+  top: -2.5%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  color: #AD9166;
+  font-size: 0.76rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.7;
+  font-weight: 200
+}
+header div.supersized-and-mini a {
+  text-decoration: none;
+  color: rgb(173,145,102);
+  transition: 0.2s;
+  position: relative;
+  display: inline-block;
+}
+header div.supersized-and-mini a:hover {
+  color: #C9B79B;
+}
+header div.supersized-and-mini a::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid rgb(173,145,102);
+  position: absolute;
+  width: 100%;
+  /* margin: 1px auto 0; */
+  /* transform: translateX(663.5%); Parent must display inline*/
+}
+@media only screen and (max-width: 1499px) {
+  header {
+    background-position: -10%, 110%, left;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  header {
+    height: 1104px;
+  }
+  header div.link-container {
+    width: 1200px;
+  }
+  header div.link-container a img {
+    width: 400px;
+    transition: .2s;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  header {
+    height: 1048px;
+  }
+  header div.socials-and-links-container {
+    padding: 13px 15px 35px;
+  }
+  header div.link-container {
+    width: 1000px;
+  }
+  header div.link-container a {
+    font-size: 1.15em;
+    padding: 15px;
+  }
+  header div.link-container a img {
+    width: 360px;
+    margin: 0 1rem;
+  }
+  header div.link-container a:first-of-type::after {
+    margin: 12px 0 0 0.33rem;
+  }
+  header div.doughnut {
+    bottom: 160px;
+  }
+  header h1 {
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    top: -17%;
+  }
+  header div.throughout-midlands {
+    font-size: .92rem;
+    top: -14.7%;
+  }
+  header div.view-doughnuts {
+    font-size: 1.55rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.06rem;
+    top: /*-11rem*/ -8.0%;
+  }
+  header div.view-doughnuts a {
+    padding: 16px 45px;
+    border: 3px solid rgb(173,145,102);
+  }
+  header div.supersized-and-mini {
+    position: relative;
+    top: -3.0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    color: #AD9166;
+    font-size: 0.74rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.75;
+    font-weight: 200;
+  }
+}
+@media only screen and (max-width: 1103px) {
+  header {
+    background: url('../img/blackboard-bg.jpg'), #2A2A2A;
+    /* height: 1122px; */
+    height: auto;
+  }
+  header div.socials-and-links-container {
+    padding: 13px 15px 17px;
+  }
+  header div.socials-and-links i {
+    font-size: 23px;
+  }
+  header div.socials-and-links .socials {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90px;
+  }
+  header nav {
+    border-top: 1px solid rgba(173, 145, 102, 0.5);
+    border-bottom: 1px solid rgba(173, 145, 102, 0.5);
+    /* margin-bottom: 20px; */
+  }
+  header div.link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    position: relative;
+    top: 0;
+    /* left: 0.1rem; */
+    z-index: 3;
+  }
+  header div.link-container a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1em;
+    padding: 15px;
+    letter-spacing: 0.01rem;
+    line-height: 1.06;
+  }
+  header div.link-container a img {
+    margin: 0 0 0 -0.2rem;
+  }
+  header div.link-container a:first-of-type {
+    color: rgba(173,145,102,1);
+  }
+  header div.link-container a:first-of-type::after {
+    display: none;
+  }
+  header div.link-container a.logo-img {
+    padding: 0;
+    position: absolute;
+    top: 47px;
+  }
+  header div.doughnut {
+    text-align: center;
+    position: relative;
+    bottom: -51px /*-20%*/;
+  }
+  header div.doughnut img {
+    /* width: 965px; */
+    max-width: 100%;
+  }
+  header h1 {
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    top: 39px;
+  }
+  header div.throughout-midlands {
+    font-size: .92rem;
+    top: 62px;
+  }
+  header div.view-doughnuts {
+    font-size: 1.55rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.06rem;
+    top: /*-11rem*/ 123px;
+  }
+  header div.view-doughnuts a {
+    padding: 17px 46px;
+    border: 3px solid rgb(173,145,102);
+    transition: none;
+  }
+  header div.supersized-and-mini {
+    position: relative;
+    top: 169px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    color: #AD9166;
+    font-size: 0.74rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.75;
+    font-weight: 200;
+    padding-bottom: 40px
+  }
+  header::after{
+    content: '';
+    display: block;
+    height: 167px;
+  }
+  header div.link-container span {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 699px) {
+  header div.mobile-socials-and-links-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  header div.socials-and-links-container {
+    display: none;
+  }
+  header nav {
+    border: none;
+  }
+  header div.link-container a {
+    line-height: 0;
+    padding: 0;
+  }
+  header div.link-container:nth-child(n+1):nth-child(-n+3),
+  header div.link-container:nth-child(n+5):nth-child(-n+7) {
+    font-size: 0;
+    line-height: 0;
+    transition: 0s;
+  }
+  header div.link-container a.logo-img {
+    top: 43px;
+  }
+  header div.link-container a.logo-img img {
+    width: 300px;
+  }
+  header div.doughnut {
+    bottom: -139px;
+  }
+  header h1 {
+    font-size: 2.05rem;
+    letter-spacing: 0.05em;
+    top: 128px;
+  }
+  header div.throughout-midlands {
+    font-size: 0.76rem;
+    top: 149px;
+    /* letter-spacing: 0px; */
+    word-spacing: .14rem;
+  }
+  header div.view-doughnuts {
+    font-size: 1.55rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.06rem;
+    top: /*-11rem*/ 211px;
+  }
+  header div.view-doughnuts a {
+    transition: .3s;
+  }
+  header div.supersized-and-mini {
+    top: 258px;
+    font-size: 0.74rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.75;
+    font-weight: 200;
+  }
+  header::after{
+    content: '';
+    display: block;
+    height: 257px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  header {
+    overflow: hidden;
+  }
+  header div.doughnut {
+    text-align: center;
+    left: -10%;
+  }
+  header div.doughnut img {
+    max-width: 120%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  header h1 {
+    font-size: 2.05rem;
+    letter-spacing: 0.05em;
+    top: 134px;
+  }
+  header div.throughout-midlands {
+    font-size: 0.76rem;
+    top: 155px;
+    word-spacing: .14rem;
+  }
+  header div.doughnut {
+    text-align: center;
+    left: -20%;
+  }
+  header div.doughnut img {
+    max-width: 140%;
+  }
+  header div.view-doughnuts {
+    font-size: 1.45rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.06rem;
+    top: /*-11rem*/ 211px;
+  }
+  header div.view-doughnuts a {
+    padding: 14px 30px;
+  }
+}

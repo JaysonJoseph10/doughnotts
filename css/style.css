@@ -1,0 +1,122 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import "header.css";
+@import "gallery.css";
+@import "our-story.css";
+@import "vegan.css";
+@import "map.css";
+@import "footer.css";
+
+nav.mobile-menu {
+  transform: translateX(421px);
+  font-family: 'Dreamwalker', 'Anton', sans-serif;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #EEE;
+  width: 360px;
+  max-width: 76vw;
+  z-index: 15;
+  display: block;
+  transition: .3s;
+}
+nav.mobile-menu.active {
+  box-shadow: 0 0 0px 200vw rgba(0,0,0,0.4);
+  transform: translateX(0);
+}
+nav.mobile-menu::before {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  content: 'Menu';
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  padding: 19px 60px;
+  color: rgba(0, 0, 0, 0.35);
+}
+nav.mobile-menu a {
+  display: block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+  padding: 20px 60px 20px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 0.93rem;
+}
+nav.mobile-menu a:first-of-type {
+  background-color: #ad9166;
+  color: white;
+}
+/* div.mobile-menu-container {
+  position: fixed;
+} */
+nav.mobile-menu i  {
+  position: absolute;
+  left: -16.6%;
+  top: 54.8vh;
+  color: white;
+  background-color: #2a2a2a;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+a.back-to-top {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 70px;
+  width: 0;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  background-color: white;
+  opacity: 0;
+  padding: 0px 28px 10px;
+  transition: .3s, transform 0s;
+  z-index: 4;
+}
+a.back-to-top:hover  {
+  color: #AD9166;
+  background-color: #2a2a2a;
+  opacity: 1;
+}
+a.back-to-top span,
+a.back-to-top i {
+  display: inline-block;
+}
+a.back-to-top i {
+  font-size: 2.5rem;
+}
+a.back-to-top span {
+  font-family: 'Dreamwalker', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.07rem;
+  font-size: 0.95rem;
+}
+a.back-to-top.inactive {
+  opacity: 0;
+}
+a.back-to-top.active {
+  opacity: 0.4;
+  /* display: flex; */
+ }
+a.back-to-top.active:hover {
+  opacity: 1;
+}
+@font-face {
+  font-family: 'Dreamwalker';
+  src: url('fonts/Dreamwalker.ttf') format('TrueType'),
+       url('fonts/Dreamwalker.otf') format('OpenType');
+}

@@ -1,0 +1,119 @@
+#footer {
+  height: 622px;
+  /* max-height: 622px; */
+  background-image: url('../img/bokeh-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:  flex-start;
+  flex-direction: column;
+  overflow: hidden;
+}
+#footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  text-align:  center;
+  justify-content: flex-start;
+  align-items:  center;
+  /* width: 1198px; */
+}
+#footer .footer-container a.logo-img {
+  margin: 90px 0 0;
+}
+#footer .footer-container a.logo-img img {
+  width: 432px;
+}
+#footer .footer-container .link-container {
+  padding: 65px 0 0;
+  display:  inline-flex;
+}
+#footer .footer-container .link-container a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.37em;
+  margin: 0 18px 0;
+  letter-spacing: 0.06rem;
+  transition: 0.3s;
+}
+#footer .footer-container .link-container a:hover {
+  color: #AD9166;
+}
+#footer .footer-container .contact {
+  padding: 54px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 586px;
+}
+#footer .footer-container .contact a {
+  color: #ad9166;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  align-self: baseline;
+}
+#footer .footer-container .contact .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+#footer .footer-container .contact .socials a {
+  font-size: 1.45rem;
+}
+#footer .footer-container .contact .email {
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  align-items: baseline;
+}
+#footer .footer-container .contact .email i {
+  font-size: 1.18rem;
+  color: #ad9166;
+}
+#footer .footer-container .contact .email a {
+  font-size: 1.17rem;
+}
+#footer .footer-container .contact .phone {
+  display: flex;
+  justify-content: space-between;
+  width: 138px;
+  align-items: baseline;
+  position: relative;
+  left: -4px;
+}
+#footer .footer-container .contact .phone i {
+  font-size: 1.18rem;
+  color: #ad9166;
+}
+#footer .footer-container .contact .phone a {
+  font-size: 1.17rem;
+}
+#footer .copyright {
+  margin: 75px 0 0;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  text-align: center;
+}
+#footer .copyright p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(222, 208, 187, 0.4);
+  padding: 35px 0 0;
+  font-size: 1.06rem;
+}
+#footer .copyright p a {
+  text-decoration: none;
+  color: rgba(222, 208, 187,0.4);
+}
+#footer .copyright p a:hover {
+  text-decoration: underline;
+}
+#footer .copyright a.adtrak-logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+#footer .copyright a img {
+  width: 100px;
+  opacity: 0.2;
+}
