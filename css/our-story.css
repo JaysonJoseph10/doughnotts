@@ -17,19 +17,29 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0
+  top: 0;
+  left: 0;
 }
 #our-story .our-story-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: block;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; */
   width: 1365px;
-  padding: 90px 0 0;
+  /* padding: 90px 0 0; */
   font-family: sans-serif;
   color: white;
   margin: 0 auto;
 }
-#our-story .our-story-container .left-column,
+#our-story .our-story-container .top-row {
+  display: flex;
+}
+#our-story .our-story-container .top-row .text-left {
+  width: 50%;
+}
+#our-story .our-story-container .top-row .our-story-img1 {
+  width: 100%;
+}
+/* #our-story .our-story-container .left-column,
 #our-story .our-story-container .right-column {
   z-index: 1;
 }
@@ -65,7 +75,7 @@
   box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
 }
 #our-story .our-story-container .right-column {
-  /* width: 80%; */
+  // width: 80%;
   padding: 0 0 0 100px;
   position: relative;
 }
@@ -97,7 +107,7 @@
   color: #C9B79B;
 }
 #our-story .our-story-container .right-column .our-story-socials {
-  /* display: flex; */
+  // display: flex;
   padding: 40px 0 0;
   width: 600px;
 }
@@ -121,14 +131,14 @@
   border: 2px solid #C9B79B;
 }
 #our-story .our-story-container .right-column .our-story-socials a:last-of-type{
-  /* width: 140px; */
+  // width: 140px;
 }
 #our-story .our-story-container .right-column .our-story-socials a i {
   margin: 0 0.3rem 0 0;
   font-size: 1.1rem;
-}
+} */
 
-@media only screen and (max-width: 1599px) {
+/* @media only screen and (max-width: 1599px) {
   #our-story .our-story-container .left-column img {
     margin: 85px 0 0;
     width: 102%;
@@ -150,8 +160,23 @@
   }
 }
 @media only screen and (max-width: 1499px) {
-
+  #our-story  {
+    padding: 0 40px 0;
+  }
+  #our-story .our-story-container {
+    width: 80vw;
+  }
+  #our-story .our-story-container .left-column img {
+    margin: 85px 0 85px 50px;
+    width: 30vw;
+    // transform: rotate(-2.5deg) scale(0.9);
+    position: absolute;
+    left: -7%;
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
+  }
 }
 @media only screen and (max-width: 1399) {
-
-}
+  #our-story .our-story-container .left-column h2 {
+    font-size: 6.8rem
+  }
+} */
