@@ -11,7 +11,7 @@
   position: relative;
   overflow: hidden;
 }
-#our-story::after {
+#our-story::after  {
   content: '';
   background: url('../img/chalk-doodles-top-left.png') no-repeat;
   width: 100%;
@@ -25,18 +25,48 @@
   /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr; */
   width: 1365px;
-  /* padding: 90px 0 0; */
+  padding: 90px 0 0;
   font-family: sans-serif;
   color: white;
   margin: 0 auto;
 }
+#our-story .our-story-container h2 {
+  font-family: 'Dancing Script', 'cursive', sans-serif;
+  font-size: 7.2rem;
+  color: white;
+  padding: 0 7px 0;
+  z-index: 100;
+}
 #our-story .our-story-container .top-row {
   display: flex;
+  position: relative;
+  z-index: 10;
 }
 #our-story .our-story-container .top-row .text-left {
   width: 50%;
 }
+#our-story .our-story-container .top-row .text-left p {
+  width: 680px;
+  line-height: 1.5;
+  padding: 34px 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.31rem;
+}
+#our-story .our-story-container .top-row .text-left .first-p {
+
+  font-size: 23px;
+  font-weight: 700;
+  padding: 60px 0 0;
+}
 #our-story .our-story-container .top-row .our-story-img1 {
+  width: 540px;
+  position: relative;
+  transform: rotate(3.5deg);
+  top: 8%;
+  left: 112px;
+  box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
+}
+#our-story .our-story-container .top-row .our-story-img1 img {
   width: 100%;
 }
 /* #our-story .our-story-container .left-column,
