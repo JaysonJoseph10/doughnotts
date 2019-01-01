@@ -25,10 +25,11 @@
   /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr; */
   max-width: 1365px;
-  padding: 90px 10px 0;
+  padding: 90px 33px 0;
   font-family: sans-serif;
   color: white;
   margin: 0 auto;
+  max-width: 1430px;
 }
 #our-story .our-story-container h2 {
   font-family: 'Dancing Script', 'cursive', sans-serif;
@@ -41,6 +42,8 @@
   display: flex;
   position: relative;
   z-index: 1;
+  padding: 0 16px 0 0;
+  justify-content: space-between;
 }
 #our-story .our-story-container .top-row .left-text {
   max-width: 50%;
@@ -65,8 +68,8 @@
   width: 550.3px;
   position: relative;
   transform: rotate(4deg);
-  top: -44px;
-  left: 114px;
+  left: -1px;
+  top: -45px;
   box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
 }
 #our-story .our-story-container .top-row .our-story-img1 img {
