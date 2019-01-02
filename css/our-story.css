@@ -166,6 +166,33 @@
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
   }
 }
+@media only screen and (max-width: 1399px) {
+  #our-story .our-story-container h2 {
+    font-family: 'Dancing Script', 'cursive', sans-serif;
+    font-size: 7.0rem;
+    color: white;
+    padding: 0 7px 0;
+    z-index: 1;
+  }
+  #our-story .our-story-container .top-row .left-text {
+    max-width: 52%;
+    position: relative;
+    left: 2px;
+    top: 1px;
+  }
+  #our-story .our-story-container .top-row .img-container {
+    padding-left: 72px;
+  }
+  #our-story .our-story-container .top-row .our-story-img1 {
+    /* max-width: 550.3px; */
+    width: 44vw;
+    position: relative;
+    transform: rotate(4deg);
+    left: -1px;
+    top: -45px;
+    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
+  }
+}
 /* #our-story .our-story-container .left-column,
 #our-story .our-story-container .right-column {
   z-index: 1;
