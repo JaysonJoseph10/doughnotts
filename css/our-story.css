@@ -106,6 +106,7 @@
   max-width: 580px;
 }
 #our-story .our-story-container .bottom-row .right-text p.first-p {
+  padding: 16px 0 0 0;
 }
 #our-story .our-story-container .bottom-row .right-text p span a {
   text-decoration: underline;
@@ -164,6 +165,12 @@
     left: -3.5%;
     top: -82px;
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
+  }
+  #our-story .our-story-container .bottom-row .right-text {
+    left: 38px;
+  }
+  #our-story .our-story-container .bottom-row .right-text p {
+    max-width: 94%;
   }
 }
 @media only screen and (max-width: 1399px) {
