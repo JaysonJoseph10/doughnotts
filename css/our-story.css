@@ -83,7 +83,7 @@
 }
 #our-story .our-story-container .bottom-row .our-story-img2 {
   margin: 85px 0 0;
-  width: 715px;
+  width: 700px;
   transform: rotate(-2deg);
   position: relative;
   left: -3.5%;
@@ -95,7 +95,7 @@
 }
 #our-story .our-story-container .bottom-row .right-text {
   max-width: 680px;
-  padding: 5px 0 0;
+  padding: 22px 0 0;
   position: relative;
 }
 #our-story .our-story-container .bottom-row .right-text p {
