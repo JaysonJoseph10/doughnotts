@@ -203,6 +203,26 @@
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
   }
 }
+@media only screen and (max-width: 1299px) {
+  #our-story .our-story-container {
+    padding: 90px 12px 0;
+  }
+  #our-story .our-story-container h2 {
+    font-size: 5.6rem;
+  }
+  #our-story .our-story-container .top-row .left-text p {
+    padding: 20px 0 0;  
+  }
+  #our-story .our-story-container .top-row .left-text p.first-p {
+    padding: 34px 0 0;
+  }
+  #our-story .our-story-container .top-row .our-story-img1 {
+    width: 42vw;
+  }
+}
+@media only screen and (max-width: 1199px) {
+
+}
 /* #our-story .our-story-container .left-column,
 #our-story .our-story-container .right-column {
   z-index: 1;
