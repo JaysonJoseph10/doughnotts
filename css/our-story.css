@@ -4,7 +4,7 @@
   background-color: #2a2a2a;
   background-repeat: no-repeat;
   background-size: /*contain,*/ cover;
-  background-position: /*top left center,*/ top center;
+  background-position: /*top left center,*/ left center;
   /* background-attachment:  local, scroll; */
   /* display: ; */
   justify-content: center;
@@ -88,10 +88,10 @@
   position: relative;
   left: -3.5%;
   top: -82px;
-  box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
 }
 #our-story .our-story-container .bottom-row .our-story-img2 img {
   width: 100%;
+  box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
 }
 #our-story .our-story-container .bottom-row .right-text {
   max-width: 680px;
@@ -117,7 +117,7 @@
   color: #C9B79B;
 }
 #our-story .our-story-container .bottom-row .our-story-socials {
-  // display: flex;
+   /* display: flex; */
   padding: 40px 0 0;
   max-width: 600px;
 }
@@ -142,7 +142,7 @@
   border: 2px solid #C9B79B;
 }
 #our-story .our-story-container .bottom-row .our-story-socials a:last-of-type{
-  // width: 140px;
+   /* width: 140px; */
 }
 #our-story .our-story-container .bottom-row .our-story-socials a i {
   margin: 0 0.3rem 0 0;
@@ -164,7 +164,6 @@
     position: relative;
     left: -3.5%;
     top: -82px;
-    box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
   }
   #our-story .our-story-container .bottom-row .right-text {
     left: 38px;
@@ -207,8 +206,11 @@
 
 }
 @media only screen and (max-width: 1199px) {
+  #our-story {
+    height: initial;
+  }
   #our-story .our-story-container {
-    padding: 90px 12px 0;
+    padding: 7.44vw 12px 3.5vw;
   }
   #our-story .our-story-container h2 {
     font-size: 5.6rem;
@@ -228,6 +230,30 @@
     width: 43.25vw;
     left: 13px;
     top: -24px;
+  }
+  #our-story .our-story-container .bottom-row {
+    padding-left: 42px;
+  }
+  #our-story .our-story-container .bottom-row .our-story-img2 {
+    margin: 93px 0 0;
+    width: 586px;
+    max-width: 586px;
+    top: -82px;
+  }
+  #our-story .our-story-container .bottom-row .right-text {
+    left: 10px;
+    padding: 0;
+  }
+  #our-story .our-story-container .bottom-row .right-text p.first-p {
+    padding: 0;
+  }
+  #our-story .our-story-container .bottom-row .right-text p {
+    line-height: 1.55;
+    padding: 20px 0 0;
+    font-size: 1.16rem;
+  }
+  #our-story .our-story-container .bottom-row .our-story-socials {
+    padding: 18px 0 0;
   }
 }
 /* #our-story .our-story-container .left-column,
