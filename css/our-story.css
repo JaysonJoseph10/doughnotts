@@ -289,7 +289,7 @@
   }
   #our-story .our-story-container .bottom-row .right-text {
     left: 0;
-    padding: 0;
+    padding: 0 0 20%;
   }
   #our-story .our-story-container .bottom-row .right-text p.first-p {
     padding: 5px 0 0 0;
@@ -298,7 +298,9 @@
     max-width: 100%;
   }
   #our-story .our-story-container .bottom-row .our-story-socials {
-
+    position: absolute;
+    width: 505px;
+    margin: 0 0 0 -76%;
   }
 }
 /* #our-story .our-story-container .left-column,
