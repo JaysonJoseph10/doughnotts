@@ -1,5 +1,5 @@
 #our-story {
-  height: 1172px;
+  /* height: 1172px; */
   background-image: /*url('../img/chalk-doodles-top-left.png'),*/ url('../img/blackboard-bg.jpg');
   background-color: #2a2a2a;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr; */
   max-width: 1365px;
-  padding: 90px 33px 0;
+  padding: 90px 33px 185px;
   font-family: sans-serif;
   color: white;
   margin: 0 auto;
@@ -175,7 +175,11 @@
   }
   #our-story .our-story-container .bottom-row .right-text p,
   #our-story .our-story-container .bottom-row p {
-    max-width: 94%;
+    max-width: none;
+    padding: 34px 0 0 51%;
+  }
+  #our-story .our-story-container .bottom-row .our-story-socials {
+    padding: 40px 0 0 51%;
   }
 }
 @media only screen and (max-width: 1399px) {
@@ -206,6 +210,9 @@
     left: -1px;
     top: -45px;
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.3);
+  }
+  #our-story .our-story-container .bottom-row .our-story-img2 {
+    width: 48%;
   }
 }
 @media only screen and (max-width: 1299px) {
