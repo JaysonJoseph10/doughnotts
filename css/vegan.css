@@ -18,7 +18,7 @@
   background: url('../img/chalk-doodles-left.png') no-repeat, url('../img/chalk-doodles-right.png') no-repeat;
   background-position-x: left, right;
   background-position-y: 100%;
-  filter: brightness(3);
+  filter: brightness(1.5);
 }
 #vegan .vegan-container {
   display: flex;
@@ -44,4 +44,9 @@
   padding: 22px 40px;
   border: 3px solid white;
   margin-top: 30px;
+}
+@media only screen and (max-width: 1599px) {
+  #vegan::after {
+    background-size: 35.7%;
+  }
 }
