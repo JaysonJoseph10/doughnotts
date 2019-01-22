@@ -245,6 +245,7 @@
   }
   #our-story .our-story-container .top-row .img-container {
     padding-left: 45px;
+    padding-right: 11px;
   }
   #our-story .our-story-container .top-row .our-story-img1 {
     width: 43.25vw;
@@ -264,18 +265,18 @@
     left: 10px;
     padding: 0;
   }
-  #our-story .our-story-container .bottom-row .right-text p.first-p,
   #our-story .our-story-container .bottom-row p.first-p {
     padding: 0;
   }
   #our-story .our-story-container .bottom-row .right-text p
   #our-story .our-story-container .bottom-row p {
     line-height: 1.55;
-    padding: 20px 0 0;
-    font-size: 1.16rem;
+    padding: 23px 0 0 48.5%;
+    font-size: 1.18rem;
+    width: 101%;
   }
   #our-story .our-story-container .bottom-row .our-story-socials {
-    padding: 18px 0 0;
+    padding: 18px 0 0 48.5%;
   }
 }
 @media only screen and (max-width: 999px) {
