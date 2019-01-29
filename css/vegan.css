@@ -1,38 +1,19 @@
 #vegan {
   background: #658359;
-  height: 526px;
-  max-height: 530px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   overflow: hidden;
 }
-#vegan::after {
-  content: '';
-  position: absolute;
-  /* top: -30px; */
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background: url('../img/chalk-doodles-left.png') no-repeat, url('../img/chalk-doodles-right.png') no-repeat;
-  background-position-x: left, right;
-  background-position-y: 100%;
-  filter: brightness(1.5);
-}
 #vegan .vegan-container {
+  padding: 65px 0;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background: ;
-  /* filter: brightness(0.5); */
   z-index: 1;
-}
-#vegan img {
-  padding-top: 0;
 }
 #vegan a {
   text-decoration: none;
@@ -44,9 +25,58 @@
   padding: 22px 40px;
   border: 3px solid white;
   margin-top: 30px;
+  transition: all .3s;
+}
+#vegan::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: url('../img/chalk-doodles-left.png') no-repeat, url('../img/chalk-doodles-right.png') no-repeat;
+  background-position-x: left, right;
+  background-position-y: 100%;
+  filter: brightness(1.5);
 }
 @media only screen and (max-width: 1599px) {
   #vegan::after {
     background-size: 35.7%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #vegan .vegan-container {
+    padding: 64px 15px;
+  }
+  #vegan a {
+    font-size: 1.75rem;
+  }
+  #vegan::after {
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 799px) {
+  #vegan .vegan-container {
+    padding: 8vw 15px;
+  }
+  #vegan img {
+    width: 100%;
+    max-width: 472px;
+  }
+  #vegan a {
+    font-size: 1.65rem;
+  }
+  #vegan::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 699px) {
+  #vegan a {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  #vegan a {
+    font-size: 1.55rem;
+    padding: 20px 28px;
   }
 }
