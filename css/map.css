@@ -80,3 +80,15 @@
   color: white;
   font-size: 0.94rem;
 }
+
+@media only screen and (max-width: 1399px) {
+  #map {
+    height: 550px;
+  }
+  #map .locations {
+    top: 10%;
+    right: 5%;
+    width: 400px;
+    height: 80%;
+  }
+}
