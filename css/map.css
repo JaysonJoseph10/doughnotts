@@ -91,4 +91,33 @@
     width: 400px;
     height: 80%;
   }
+  #map .locations .stores-stockists {
+    display: flex;
+    justify-content: space-between;
+  }
+  #map .locations .stores-stockists a {
+    width: 48%;
+    font-size: 1.05rem;
+    padding: 12px 51px;
+  }
+  #map .locations .stores-stockists a:last-of-type {
+    display: flex;
+    justify-content: center;
+  }
+  #map .locations .location h4 {
+    font-size: 1.269rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #map .locations {
+    width: 350px;
+    padding: 20px;
+  }
+  #map .locations .location h4:first-of-type {
+    padding: 20px 0 0;
+    font-size: 1.159rem;
+  }
+}
+@media only screen and (max-width: 999px) { 
+
 }
