@@ -118,6 +118,13 @@
     font-size: 1.159rem;
   }
 }
-@media only screen and (max-width: 999px) { 
-
+@media only screen and (max-width: 999px) {
+  #map .locations {
+    width: 100%;
+    padding: 20px;
+    height: 380px;
+    top: unset;
+    right: 0;
+    bottom: 0;
+  }
 }
