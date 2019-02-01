@@ -1,10 +1,14 @@
+#map-container {
+  position: relative;
+  overflow: hidden;
+}
 #map {
   height: 642px;
   background-color: #2a2a2a;
   position: relative;
   overflow: hidden;
 }
-#map .locations {
+#map-container .locations {
   width: 502px;
   height: 75%;
   padding: 25px;
@@ -13,13 +17,14 @@
   top: 12.5%;
   right: 6%;
   z-index: 1;
+  font-size: 12px;
 }
-#map .locations .stores-stockists {
+#map-container .locations .stores-stockists {
    display: grid;
    grid-gap: 17px;
    grid-template-columns: 1fr 1fr;
 }
-#map .locations .stores-stockists a {
+#map-container .locations .stores-stockists a {
   display: inline-block;
   padding: 15px 60px;
   color: white;
@@ -32,23 +37,23 @@
   text-align: center;
   letter-spacing: 0.03rem;
 }
-#map .locations .stores-stockists a:first-of-type {
+#map-container .locations .stores-stockists a:first-of-type {
 
 }
-#map .locations .stores-stockists a:last-of-type {
+#map-container .locations .stores-stockists a:last-of-type {
   border: 3px solid #9d845e;
   /* color: #AD9166; */
   color: #9d845e;
   transition: .1s;
 }
-#map .locations .stores-stockists a:last-of-type:hover {
+#map-container .locations .stores-stockists a:last-of-type:hover {
   border: 3px solid #a38a61;
   color: #a38a61;
 }
-#map .locations .location {
+#map-container .locations .location {
   line-height: 1.6;
 }
-#map .locations .location h4 {
+#map-container .locations .location h4 {
   display: inline-block;
   color: #ad9166;
   font-family: 'Anton', sans-serif;
@@ -58,10 +63,10 @@
   text-align: center;
   letter-spacing: 0.04rem;
 }
-#map .locations .location h4:first-of-type {
+#map-container .locations .location h4:first-of-type {
   padding: 30px 0 0;
 }
-#map .locations .location a {
+#map-container .locations .location a {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
@@ -72,10 +77,10 @@
   margin-left: 5px;
   transition: .2s;
 }
-#map .locations .location a:hover {
+#map-container .locations .location a:hover {
   color: #5e5e5e;
 }
-#map .locations .location p {
+#map-container .locations .location p {
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 0.94rem;
@@ -85,46 +90,69 @@
   #map {
     height: 550px;
   }
-  #map .locations {
+  #map-container .locations {
     top: 10%;
     right: 5%;
     width: 400px;
     height: 80%;
   }
-  #map .locations .stores-stockists {
+  #map-container .locations .stores-stockists {
     display: flex;
     justify-content: space-between;
   }
-  #map .locations .stores-stockists a {
+  #map-container .locations .stores-stockists a {
     width: 48%;
     font-size: 1.05rem;
     padding: 12px 51px;
   }
-  #map .locations .stores-stockists a:last-of-type {
+  #map-container .locations .stores-stockists a:last-of-type {
     display: flex;
     justify-content: center;
   }
-  #map .locations .location h4 {
+  #map-container .locations .location h4 {
     font-size: 1.269rem;
   }
 }
 @media only screen and (max-width: 1199px) {
-  #map .locations {
+  #map-container .locations {
     width: 350px;
     padding: 20px;
   }
-  #map .locations .location h4:first-of-type {
+  #map-container .locations .stores-stockists a {
+    padding: 14px 51px;
+  }
+  #map-container .locations .stores-stockists a:first-of-type {
+    display: flex;
+    justify-content: center;
+  }
+  #map-container .locations .location h4:first-of-type {
     padding: 20px 0 0;
     font-size: 1.159rem;
   }
 }
 @media only screen and (max-width: 999px) {
-  #map .locations {
+  #map-container .locations {
+    text-align: center;
     width: 100%;
     padding: 20px;
     height: 380px;
     top: unset;
     right: 0;
     bottom: 0;
+    position: static;
+  }
+  #map-container .locations .stores-stockists {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  #map-container .locations .stores-stockists a:first-of-type {
+    margin-right: 10px;
+    width: 38%;
+    display: inline-flex;
+  }
+  #map-container .locations .stores-stockists a:last-of-type {
+    display: inline-flex;
+    width: 45.5%;
   }
 }
