@@ -152,3 +152,11 @@
     padding: 34px 0 0;
   }
 }
+@media only screen and (max-width: 1099px) {
+  #footer {
+    height: 580px;
+  }
+  #footer .footer-container .link-container {
+    padding: 46px 20px 0;
+  }
+}
