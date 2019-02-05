@@ -146,10 +146,11 @@
     padding: 45px 0 0;
   }
   #footer .copyright {
-    margin: 55px 0 0;
+    margin: 55px 0 22px;
+    line-height: 1.5;
   }
   #footer .copyright p {
-    padding: 34px 0 0;
+    padding: 34px 30px 0;
   }
 }
 @media only screen and (max-width: 1099px) {
@@ -158,5 +159,16 @@
   }
   #footer .footer-container .link-container {
     padding: 46px 20px 0;
+  }
+}
+@media only screen and (max-width: 999px) {
+  #footer {
+    height: 500px;
+  }
+  #footer .footer-container .link-container a {
+    font-size: 1.1em;
+  }
+  #footer .copyright p {
+    padding: 34px 28px 0;
   }
 }
