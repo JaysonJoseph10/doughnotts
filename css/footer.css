@@ -165,10 +165,24 @@
   #footer {
     height: 500px;
   }
+  #footer .footer-container a.logo-img {
+    margin: 50px 0 0;
+  }
+  #footer .footer-container .link-container {
+    display: block;
+    padding: 30px 20px 0;
+  }
   #footer .footer-container .link-container a {
-    font-size: 1.1em;
+    font-size: 1.05em;
+    margin: 0 8px 0;
+  }
+  #footer .footer-container .contact {
+    padding: 27px 0 0;
   }
   #footer .copyright p {
     padding: 34px 28px 0;
   }
+}
+@media only screen and (max-width: 799px) {
+
 }
