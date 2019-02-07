@@ -184,5 +184,13 @@
   }
 }
 @media only screen and (max-width: 799px) {
+  #footer {
+    height: 525px;
+  }
+  #footer .copyright p {
+    padding: 34px 12px 0;
+  }
+}
+@media only screen and (max-width: 699px) {
 
 }
