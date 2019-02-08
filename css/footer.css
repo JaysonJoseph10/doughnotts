@@ -192,5 +192,7 @@
   }
 }
 @media only screen and (max-width: 699px) {
-
+  #footer {
+    height: 682px
+  }
 }
