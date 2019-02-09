@@ -195,4 +195,10 @@
   #footer {
     height: 682px
   }
+  #footer .footer-container .link-container a {
+    display: block;
+  }
+  #footer .footer-container .contact {
+    display: block;
+  }
 }
