@@ -193,12 +193,29 @@
 }
 @media only screen and (max-width: 699px) {
   #footer {
-    height: 682px
+    height: 760px;
   }
   #footer .footer-container .link-container a {
     display: block;
+    line-height: 1.75;
+  }
+  #footer .footer-container a.logo-img {
+    margin: 40px 0 0;
   }
   #footer .footer-container .contact {
     display: block;
+  }
+  #footer .footer-container .contact .socials,
+  #footer .footer-container .contact .email,
+  #footer .footer-container .contact .phone {
+    margin: 0 auto 12px;
+  }
+  #footer .footer-container .contact .email i {
+    font-size: 1.1rem;
+    margin: 0 10px 0 auto;
+  }
+  #footer .footer-container .contact .email a {
+    font-size: 1.07rem;
+    margin: 0 auto 0 0;
   }
 }
