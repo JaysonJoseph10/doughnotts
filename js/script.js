@@ -7,6 +7,7 @@ var mobileMenu = document.getElementsByClassName('mobile-menu')[0]
 var exitBtn = document.getElementsByClassName('exit-menu-btn')[0]
 var body = document.getElementsByTagName('body')[0]
 
+//Mobile menu functionality
 function btnClicked() {
   mobileMenu.classList.add('active')
   body.style.overflow = 'hidden'
@@ -20,20 +21,7 @@ menuBtn.addEventListener('click', function(event){
   btnClicked()
 })
 
-
-/*var getDisplay = function() {
-  for (i = 0; i < tileBg.length; i++) {
-    var current = tileBg[i]
-    // if (tileBg[i].style.display == 'none') {
-    //   console.log('tile ' + tileBg[i] + ' is not displayed')
-    // }
-    console.log(tileBg[i].style.display)
-    setTimeout(function() {
-      // tileBg[i].classList.toggle('active')
-    }, 200)
-  }
-}*/
-
+//Dyanmic image gallery functionality
 var imgArraySet = [
   [
     'https://scontent.cdninstagram.com/vp/81d1ea0b309e8d68a5b12dd4d002ae0a/5C8D15D2/t51.2885-15/sh0.08/e35/p640x640/46399768_581519475626907_2931664920864068574_n.jpg',
@@ -121,7 +109,6 @@ function cycleImg() {
     }
   }
   function setDelay(i) {
-    // var imgSource = tileBg[i].src
     setTimeout(function(){
       tileBg[i].src = imgArraySet[i][index]
     },500)
@@ -134,34 +121,16 @@ function cycleImg() {
 }
 setInterval(cycleImg, 1000)
 
-// getDisplay()
-
+//Back to top button functionality
 this.onscroll = function () {
    toTopBtnOpacity()
 }
-
-
 
 function toTopBtnOpacity() {
   if (this.pageYOffset >= (headerPos + 300)) {
     toTopBtn.style.display = 'flex'
     toTopBtn.classList.add('active')
-    // toTopBtn.style.opacity = '0.4'
-    // $('.back-to-top').fadeIn('fast', function(){
-    //   $('.back-to-top').css({
-    //     display: 'flex'
-    //   })
-    //   console.log('faded in')
-    // })
   } else if (this.pageYOffset < (headerPos + 300)){
     toTopBtn.classList.remove('active')
-    // toTopBtn.style.opacity = ''
-    // $('.back-to-top').fadeOut('fast', function(){
-    //   console.log('faded out')
-    // }).done(function() {
-    //   $('.back-to-top').css({
-    //     display: 'none'
-    //   })
-    // })
   }
 }

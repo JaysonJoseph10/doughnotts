@@ -51,9 +51,6 @@ nav.mobile-menu a:first-of-type {
   background-color: #ad9166;
   color: white;
 }
-/* div.mobile-menu-container {
-  position: fixed;
-} */
 nav.mobile-menu i  {
   position: absolute;
   left: -16.6%;
@@ -110,7 +107,6 @@ a.back-to-top.inactive {
 }
 a.back-to-top.active {
   opacity: 0.4;
-  /* display: flex; */
  }
 a.back-to-top.active:hover {
   opacity: 1;

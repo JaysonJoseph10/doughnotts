@@ -1,12 +1,9 @@
 #our-story {
-  /* height: 1172px; */
-  background-image: /*url('../img/chalk-doodles-top-left.png'),*/ url('../img/blackboard-bg.jpg');
+  background-image: url('../img/blackboard-bg.jpg');
   background-color: #2a2a2a;
   background-repeat: no-repeat;
-  background-size: /*contain,*/ cover;
-  background-position: /*top left center,*/ left center;
-  /* background-attachment:  local, scroll; */
-  /* display: ; */
+  background-size: cover;
+  background-position: left center;
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -22,8 +19,6 @@
 }
 #our-story .our-story-container {
   display: block;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; */
   max-width: 1365px;
   padding: 90px 33px 10%;
   font-family: sans-serif;
@@ -100,7 +95,6 @@
   padding: 34px 0 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.31rem;
-  /* max-width: 580px; */
 }
 #our-story .our-story-container .bottom-row p.first {
   padding: 16px 0 0 0;
@@ -114,9 +108,7 @@
   color: #C9B79B;
 }
 #our-story .our-story-container .bottom-row .our-story-socials {
-   /* display: flex; */
   padding: 40px 0 0;
-  /* max-width: 600px; */
 }
 #our-story .our-story-container .bottom-row .our-story-socials a {
   text-decoration: none;
@@ -174,7 +166,6 @@
     margin-left: 9%;
   }
   #our-story .our-story-container .bottom-row .our-story-img2 {
-    /* width: 43vw; */
     padding-top: 26px;
   }
 }
@@ -199,7 +190,6 @@
     padding-left: 72px;
   }
   #our-story .our-story-container .top-row .our-story-img1 {
-    /* width: 39vw; */
     position: relative;
     transform: rotate(4deg);
     left: -1px;
@@ -213,7 +203,6 @@
 }
 @media only screen and (max-width: 1299px) {
   #our-story .our-story-container .top-row .our-story-img1 {
-    /* max-width: 550.3px; */
     width: 45%;
     margin-left: 6.37%;
   }
@@ -241,10 +230,8 @@
     padding: 40px 0 0;
   }
   #our-story .our-story-container .top-row .our-story-img1 {
-    /* width: 43.25vw; */
     left: 13px;
     margin-left: 4.4%;
-    /* top: -24px; */
   }
   #our-story .our-story-container .bottom-row {
     padding-top: 1vw;

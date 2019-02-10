@@ -11,7 +11,6 @@ header div.mobile-socials-and-links-container {
 }
 header div.mobile-socials-and-links-container .deliveroo-icon-mobile {
   background-color: #00cebc;
-  /* flex: 1%; */
   display: flex;
   align-items: center;
   width: 17%;
@@ -23,7 +22,6 @@ header div.mobile-socials-and-links-container .deliveroo-icon-mobile a img {
   width: 20px;
 }
 header div.mobile-socials-and-links-container .come-find-us {
-  /* flex: 2; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,18 +43,13 @@ header div.mobile-socials-and-links-container .come-find-us a {
 header div.mobile-socials-and-links-container .come-find-us a span {
   align-self: center;
   position: relative;
-  /* top: 1px; */
-  /* left: 21px; */
   font-size: 1.03rem;
 }
 header div.mobile-socials-and-links-container .come-find-us a i {
-  /* font-size: 1.92rem; */
   font-size: 20px;
   margin-right: 10px;
 }
 header div.mobile-socials-and-links-container .menu-btn-container {
-  /* flex: 2.55; */
-  /* flex: 1.75; */
   color: white;
   width: 36%;
 }
@@ -95,7 +88,7 @@ header div.socials-and-links i {
 }
 header div.socials-and-links a {
   text-decoration: none;
-  color: #AD9166 /*rgb(173, 145, 102)*/;
+  color: #AD9166;
   font-family: 'Anton', sans-serif;
 }
 header div.socials-and-links .socials {
@@ -180,11 +173,7 @@ header div.link-container a:hover {
   color: #AD9166;
 }
 header div.link-container a:first-of-type {
-  /* border-bottom: 3px solid #AD9166; */
   position: relative;
-}
-header div.link-container a:first-of-type:hover {
-
 }
 header div.link-container a:first-of-type::after {
   content: '';
@@ -219,7 +208,7 @@ header h1 {
   font-size: 2.95rem;
   font-family: 'Anton', sans-serif;
   position: relative;
-  top: /*-11rem*/ -15%;
+  top: -15%;
   letter-spacing: 0.06rem;
 }
 header div.throughout-midlands {
@@ -259,7 +248,7 @@ header div.view-doughnuts {
   font-size: 1.75rem;
   font-family: 'Anton', sans-serif;
   position: relative;
-  top: /*-11rem*/ -7%;
+  top: -7%;
   letter-spacing: 0.06rem;
 }
 header div.view-doughnuts a {
@@ -302,8 +291,6 @@ header div.supersized-and-mini a::after {
   border-bottom: 1px solid rgb(173,145,102);
   position: absolute;
   width: 100%;
-  /* margin: 1px auto 0; */
-  /* transform: translateX(663.5%); Parent must display inline*/
 }
 @media only screen and (max-width: 1499px) {
   header {
@@ -359,7 +346,7 @@ header div.supersized-and-mini a::after {
     font-size: 1.55rem;
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.06rem;
-    top: /*-11rem*/ -8.0%;
+    top: -8.0%;
   }
   header div.view-doughnuts a {
     padding: 16px 45px;
@@ -382,7 +369,6 @@ header div.supersized-and-mini a::after {
 @media only screen and (max-width: 1103px) {
   header {
     background: url('../img/blackboard-bg.jpg'), #2A2A2A;
-    /* height: 1122px; */
     height: auto;
   }
   header div.socials-and-links-container {
@@ -399,7 +385,6 @@ header div.supersized-and-mini a::after {
   header nav {
     border-top: 1px solid rgba(173, 145, 102, 0.5);
     border-bottom: 1px solid rgba(173, 145, 102, 0.5);
-    /* margin-bottom: 20px; */
   }
   header div.link-container {
     display: flex;
@@ -408,7 +393,6 @@ header div.supersized-and-mini a::after {
     width: 575px;
     position: relative;
     top: 0;
-    /* left: 0.1rem; */
     z-index: 3;
   }
   header div.link-container a {
@@ -438,10 +422,9 @@ header div.supersized-and-mini a::after {
   header div.doughnut {
     text-align: center;
     position: relative;
-    bottom: -51px /*-20%*/;
+    bottom: -51px;
   }
   header div.doughnut img {
-    /* width: 965px; */
     max-width: 100%;
   }
   header h1 {
@@ -457,7 +440,7 @@ header div.supersized-and-mini a::after {
     font-size: 1.55rem;
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.06rem;
-    top: /*-11rem*/ 123px;
+    top: 123px;
   }
   header div.view-doughnuts a {
     padding: 17px 46px;
@@ -527,14 +510,13 @@ header div.supersized-and-mini a::after {
   header div.throughout-midlands {
     font-size: 0.76rem;
     top: 149px;
-    /* letter-spacing: 0px; */
     word-spacing: .14rem;
   }
   header div.view-doughnuts {
     font-size: 1.55rem;
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.06rem;
-    top: /*-11rem*/ 211px;
+    top: 211px;
   }
   header div.view-doughnuts a {
     transition: .3s;
@@ -586,7 +568,7 @@ header div.supersized-and-mini a::after {
     font-size: 1.45rem;
     font-family: 'Anton', sans-serif;
     letter-spacing: 0.06rem;
-    top: /*-11rem*/ 211px;
+    top: 211px;
   }
   header div.view-doughnuts a {
     padding: 14px 30px;
