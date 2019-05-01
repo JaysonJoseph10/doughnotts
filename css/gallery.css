@@ -58,6 +58,9 @@
   transition: 0s;
   display: block;
 }
+#gallery .gallery-container .tile:nth-of-type(4) img {
+  height: 100%
+}
 .active {
   display: none;
 }
